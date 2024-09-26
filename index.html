@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunidhi's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Sunidhi's Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about" class="active">About</a></li>
+                <li><a href="#tasks">Tasks</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <img src="profile.jpg" alt="Profile" class="profile-img">
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>I'm Sunidhi, a passionate second-year engineering student specializing in AI & ML.
+                    My focus is on frontend development and creating innovative solutions. I have a strong foundation
+                    in computer science and am constantly exploring new technologies and projects to enhance my skills.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tasks Section -->
+    <section id="tasks" class="section">
+        <div class="container">
+            <h2>Internship Tasks</h2>
+            <div class="cards">
+                <div class="task-card">
+                    <h3>Task 1: Veggie Haven Website</h3>
+                    <p>Built a website dedicated to vegetarian dishes, showcasing my frontend development skills and creative design capabilities.</p>
+                    <img src="restaurant.png" alt="front-page of landing page" style="width: 300px; height: 200px;">
+                </div>
+                
+                <div class="task-card">
+                    <h3>Task 2: Personal Profile Page</h3>
+                    <p>Created a personal profile page showcasing skills, projects, and social media links using HTML, CSS, and JavaScript.</p>
+                    <img src="personal.png" alt="front-page of profile page" style="width: 300px; height: 200px;">
+                </div>
+                <div class="task-card">
+                    <h3>Task 3: E-commerce Landing Page</h3>
+                    <p>Developed a landing page for an e-commerce site advertising shoes. Included interactive elements and visual storytelling.</p>
+                    <img src="ecommerce.png" alt="front-page of shoe market page" style="width: 300px; height: 200px;">
+                </div>
+                <div class="task-card">
+                    <h3>Task 4: Portfolio of Projects</h3>
+                    <p>Designed and developed a personal portfolio website to showcase my previous web development tasks and individual projects.</p>
+                    <img src="portfolio.png" alt="front-page of this website" style="width: 300px; height: 200px;">
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Personal Projects</h2>
+            <div class="cards">
+                <div class="project-card">
+                    <h3>Monitoring Water Potability</h3>
+                    <p>Developed and trained a personal waterbot to analyze and provide insights on water quality data,
+                        ensuring safe and potable water. Automated responses for various water-related queries to assist in
+                        real-time monitoring and awareness.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Biodiversity Monitoring Platform</h3>
+                    <p>Created an AI-driven platform for species identification and habitat mapping, aiming to support conservation efforts.</p>
+                </div>
+               <div class="project-card">
+                    <h3>Bridging Employment & Skill development through web-based platform</h3>
+                    <p> Contributed to a project aimed at enhancing employability by designing a user-friendly web platform.
+                        My role included creating flow diagrams, visualizing scenarios with stickman representations, and designing web page except the coding part.
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-bars">
+                <div class="skill">
+                    <h3>HTML & CSS</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="90"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="80"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>Python</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="85"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>Java & Kotlin</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="70"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Drawing and Painting</h3>
+                <p>Apart from technical skills, I have my personal interest in drawing, especially Mandala art and painting random scenes for relaxing myself.</p>
+                <div class="art-images">
+                    <img src="mandala.png" alt="Mandala Art" style="width: 300px; height: 200px;">
+                    <img src="sketch.png" alt="Sketch" style="width: 300px; height: 200px;">
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Singing and Dancing</h3>
+                <p>In addition, I have a deep passion for singing and dancing, which allows me to channel my creativity and unwind. Whether I'm harmonizing to
+                    my favorite songs or letting loose on the dance floor, these activities fill me with joy and a sense of liberation.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+<section id="contact" class="section">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch and wish to see the code of developed projects, 
+            please fill out the form below, or reach out through any of my social media channels.</p>
+        
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <form action="https://formspree.io/f/yourformID" method="POST">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="_replyto" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        
+        <!-- Social Media Links -->
+        <head>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        </head>
+        <body>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/sunidhi-k-3a36a32aa" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin" style="font-size: 30px;"></i>
+                </a>
+                <a href="https://github.com/Sunidhi-18" target="_blank" title="GitHub">
+                    <i class="fab fa-github" style="font-size: 30px;"></i>
+                </a>
+                <a href="https://twitter.com/sunidhi" target="_blank" title="Twitter">
+                    <i class="fab fa-twitter" style="font-size: 30px;"></i>
+                </a>
+            </div>
+        </body>
+        
+        <!-- Location and Availability -->
+        <div class="location-availability">
+            <p><strong>Location:</strong> Karnataka, India</p>
+            <p><strong>Available:</strong> Mon - Fri (9 AM - 6 PM IST)</p>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Sunidhi's Portfolio. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
